@@ -1,9 +1,9 @@
 spring:
  profiles:
   active:
-   - dev
+   - test
 ---
 spring:
- profiles: dev
+ profiles: test
  application:
-  name: microservicecloud-config-atguigu-dev
+  name: microservicecloud-config-atguigu-test
